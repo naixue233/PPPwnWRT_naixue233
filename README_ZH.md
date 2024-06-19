@@ -49,9 +49,9 @@ For 11.00
 ```
 pppwn -i INTERFACE --fw 1100 -s1 "/etc/pppwnwrt/stage1_1100.bin" -s2 "/etc/pppwnwrt/stage2.bin" -a
 ```
-(If you're low on space, you can remove unneeded stage1.bin file)
+（如果空间不足，您可以删除不需要的stage1.bin 文件）
 
-Note: included stage2.bin is GoldHEN. You can change it to whatever stage2.bin payload you want
+注意：包含的 stage2.bin 是 GoldHEN。您可以将其更改为您想要的任何 stage2.bin 有效负载
 
  6. 在OpenWRT中启用自启动
 - `/etc/init.d/pppwnwrt enable`
