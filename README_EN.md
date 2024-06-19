@@ -45,11 +45,24 @@ Your interfaces are now displayed for you to replace `INTERFACE` in step 5 with 
 
 For 9.00
 ```
-pppwn -i INTERFACE --fw 900 -s1 "/etc/pppwnwrt/stage1_900.bin" -s2 "/etc/pppwnwrt/stage2.bin" -a
+pppwn -i INTERFACE --fw 900 -s1 "/etc/pppwnwrt/stage1_900.bin" -s2 "/etc/pppwnwrt/stage2_900.bin" -a
 ```
+
+For 9.60
+```
+pppwn -i INTERFACE --fw 960 -s1 "/etc/pppwnwrt/stage1_960.bin" -s2 "/etc/pppwnwrt/stage2_960.bin" -a
+```
+
+For 10.00/10.01
+```
+pppwn -i INTERFACE --fw 1000 -s1 "/etc/pppwnwrt/stage1_1000.bin" -s2 "/etc/pppwnwrt/stage2_1000.bin" -a
+
+pppwn -i INTERFACE --fw 1001 -s1 "/etc/pppwnwrt/stage1_1000.bin" -s2 "/etc/pppwnwrt/stage2_1000.bin" -a
+```
+
 For 11.00
 ```
-pppwn -i INTERFACE --fw 1100 -s1 "/etc/pppwnwrt/stage1_1100.bin" -s2 "/etc/pppwnwrt/stage2.bin" -a
+pppwn -i INTERFACE --fw 1100 -s1 "/etc/pppwnwrt/stage1_1100.bin" -s2 "/etc/pppwnwrt/stage2_1100.bin" -a
 ```
 (If you're low on space, you can remove unneeded stage1.bin file)
 
