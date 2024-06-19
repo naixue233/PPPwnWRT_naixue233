@@ -15,23 +15,23 @@ https://github.com/GoldHEN/GoldHEN/releases
 
 Raspberry Pi 构建:
 ```
-wget -q -O - https://github.com/FalsePhilosopher/PPPwnWRT/raw/main/scripts/RPi.sh | sh
+wget -q -O - https://github.com/naixue233/PPPwnWRT_naixue233/blob/main/scripts/RPi.sh | sh
 ```
 MIPS 构建
 ```
-wget -q -O - https://github.com/FalsePhilosopher/PPPwnWRT/raw/main/scripts/MIPS.sh | sh
+wget -q -O - https://github.com/naixue233/PPPwnWRT_naixue233/blob/main/scripts/MIPS.sh | sh
 ```
 Cortex A7 构建
 ```
-wget -q -O - https://github.com/FalsePhilosopher/PPPwnWRT/raw/main/scripts/CortexA7.sh | sh
+wget -q -O - https://github.com/naixue233/PPPwnWRT_naixue233/blob/main/scripts/CortexA7.sh | sh
 ```
 ARM_64 构建
 ```
-wget -q -O - https://github.com/FalsePhilosopher/PPPwnWRT/raw/main/scripts/ARM_64.sh | sh
+wget -q -O - https://github.com/naixue233/PPPwnWRT_naixue233/blob/main/scripts/ARM_64.sh | sh
 ```
 x86_64 构建
 ```
-wget -q -O - https://github.com/FalsePhilosopher/PPPwnWRT/raw/main/scripts/x86_64.sh | sh
+wget -q -O - https://github.com/naixue233/PPPwnWRT_naixue233/blob/main/scripts/x86_64.sh | sh
 ```
 
 需要说明的是：养成使用
