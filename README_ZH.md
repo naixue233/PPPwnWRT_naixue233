@@ -43,8 +43,19 @@ wget -q -O - https://github.com/FalsePhilosopher/PPPwnWRT/raw/main/scripts/x86_6
 
 For 9.00
 ```
-pppwn -i INTERFACE --fw 900 -s1 "/etc/pppwnwrt/stage1_900.bin" -s2 "/etc/pppwnwrt/stage2.bin" -a
+pppwn -i INTERFACE --fw 900 -s1 "/etc/pppwnwrt/stage1_900.bin" -s2 "/etc/pppwnwrt/stage2_900.bin" -a
 ```
+
+For 9.60
+```
+pppwn -i INTERFACE --fw 960 -s1 "/etc/pppwnwrt/stage1_960.bin" -s2 "/etc/pppwnwrt/stage2_960.bin" -a
+```
+
+For 10.00/10.01
+```
+pppwn -i INTERFACE --fw 1000 -s1 "/etc/pppwnwrt/stage1_1000.bin" -s2 "/etc/pppwnwrt/stage2_1000.bin" -a
+```
+
 For 11.00
 ```
 pppwn -i INTERFACE --fw 1100 -s1 "/etc/pppwnwrt/stage1_1100.bin" -s2 "/etc/pppwnwrt/stage2.bin" -a
