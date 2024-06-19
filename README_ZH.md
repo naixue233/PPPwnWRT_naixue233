@@ -54,6 +54,8 @@ pppwn -i INTERFACE --fw 960 -s1 "/etc/pppwnwrt/stage1_960.bin" -s2 "/etc/pppwnwr
 For 10.00/10.01
 ```
 pppwn -i INTERFACE --fw 1000 -s1 "/etc/pppwnwrt/stage1_1000.bin" -s2 "/etc/pppwnwrt/stage2_1000.bin" -a
+
+pppwn -i INTERFACE --fw 1001 -s1 "/etc/pppwnwrt/stage1_1000.bin" -s2 "/etc/pppwnwrt/stage2_1000.bin" -a
 ```
 
 For 11.00
