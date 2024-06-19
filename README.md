@@ -40,28 +40,9 @@ wget -q -O - https://github.com/naixue233/PPPwnWRT_naixue233/blob/main/scripts/x
 现在显示您的接口，以便您使用您选择的以太网接口替换步骤 5 中的“INTERFACE”。
 
 5. 编辑 `/etc/pppwnwrt/pppwnwrt.sh` 脚本
-
-For 9.00
-```
-pppwn -i INTERFACE --fw 900 -s1 "/etc/pppwnwrt/stage1_900.bin" -s2 "/etc/pppwnwrt/stage2_900.bin" -a
-```
-
-For 9.60
-```
-pppwn -i INTERFACE --fw 960 -s1 "/etc/pppwnwrt/stage1_960.bin" -s2 "/etc/pppwnwrt/stage2_960.bin" -a
-```
-
-For 10.00/10.01
-```
-pppwn -i INTERFACE --fw 1000 -s1 "/etc/pppwnwrt/stage1_1000.bin" -s2 "/etc/pppwnwrt/stage2_1000.bin" -a
-
-pppwn -i INTERFACE --fw 1001 -s1 "/etc/pppwnwrt/stage1_1000.bin" -s2 "/etc/pppwnwrt/stage2_1000.bin" -a
-```
-
-For 11.00
-```
-pppwn -i INTERFACE --fw 1100 -s1 "/etc/pppwnwrt/stage1_1100.bin" -s2 "/etc/pppwnwrt/stage2_1100.bin" -a
-```
+fw变量填入你现在的固件版本比如11.00就是1100
+10.01就是1001
+9.60就是960
 （如果空间不足，您可以删除不需要的stage1.bin 文件）
 
 注意：包含的 stage2.bin 是 GoldHEN。您可以将其更改为您想要的任何 stage2.bin 有效负载
