@@ -60,7 +60,7 @@ pppwn -i INTERFACE --fw 1001 -s1 "/etc/pppwnwrt/stage1_1000.bin" -s2 "/etc/pppwn
 
 For 11.00
 ```
-pppwn -i INTERFACE --fw 1100 -s1 "/etc/pppwnwrt/stage1_1100.bin" -s2 "/etc/pppwnwrt/stage2.bin" -a
+pppwn -i INTERFACE --fw 1100 -s1 "/etc/pppwnwrt/stage1_1100.bin" -s2 "/etc/pppwnwrt/stage2_1100.bin" -a
 ```
 （如果空间不足，您可以删除不需要的stage1.bin 文件）
 
