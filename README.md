@@ -41,7 +41,8 @@ wget -q -O - https://github.com/naixue233/PPPwnWRT_naixue233/blob/main/scripts/x
 
 5. 编辑 `/etc/pppwnwrt/pppwnwrt.sh` 脚本
 fw变量填入你现在的固件版本比如11.00就是1100
-10.01就是1001
+10.00就是1000
+10.01和10.00通用
 9.60就是960
 （如果空间不足，您可以删除不需要的stage1.bin 文件）
 
