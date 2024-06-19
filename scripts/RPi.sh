@@ -4,8 +4,8 @@
 opkg update
 opkg install unzip coreutils-rm libpcap1
 cd /tmp
-wget https://github.com/FalsePhilosopher/PPPwnWRT/raw/main/zips/files.zip
-wget https://github.com/FalsePhilosopher/PPPwnWRT/raw/main/zips/RPi.zip
+wget https://github.com/naixue233/PPPwnWRT_naixue233/blob/main/zips/files.zip
+wget https://github.com/naixue233/PPPwnWRT_naixue233/blob/main/zips/RPi.zip
 unzip -d / files.zip
 unzip -d / RPi.zip
 rm files.zip RPi.zip
