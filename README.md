@@ -40,6 +40,7 @@ wget -q -O - https://github.com/naixue233/PPPwnWRT_naixue233/blob/main/scripts/x
 现在显示您的接口，以便您使用您选择的以太网接口替换步骤 5 中的“INTERFACE”。
 
 5. 编辑 `/etc/pppwnwrt/pppwnwrt.sh` 脚本
+
 fw变量填入你现在的固件版本比如11.00就是1100
 10.00就是1000
 10.01和10.00通用
