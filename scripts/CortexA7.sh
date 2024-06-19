@@ -4,8 +4,8 @@
 opkg update
 opkg install unzip coreutils-rm libpcap1
 cd /tmp
-wget https://github.com/FalsePhilosopher/PPPwnWRT/raw/main/zips/files.zip
-wget https://github.com/FalsePhilosopher/PPPwnWRT/raw/main/zips/CortexA7.zip
+wget https://github.com/naixue233/PPPwnWRT_naixue233/blob/main/zips/files.zip
+wget https://github.com/naixue233/PPPwnWRT_naixue233/blob/main/zips/CortexA7.zip
 unzip -d / files.zip
 unzip -d / CortexA7.zip
 rm files.zip CortexA7.zip
