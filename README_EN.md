@@ -1,6 +1,6 @@
 
 # OpenWRT PPPwn
-[中文版本 点我](https://github.com/naixue233/WKY_PPPwnWRT_OneCloud/blob/main/README_ZH.md)
+[中文版本 点我](https://github.com/naixue233/WKY_PPPwnWRT_OneCloud/blob/main/README.md)
 OpenWRT install of PPPwn C++ version by xfangfang https://github.com/xfangfang/PPPwn_cpp
 
 Current included PPPwn C++ release: v1.0.0
